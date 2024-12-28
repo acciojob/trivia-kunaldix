@@ -1,31 +1,39 @@
+* {
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
 
-/* Your CSS Code here. */
-*{
-	margin:0px;
-	padding:0px;
-}
-#container{
-	margin:10px;
-	padding:15px;
-}
-.btn{
-	margin-top:5px;
-}
-#new-delhi{
-	margin-top:20px;
-}
+		#container {
+			margin: 20px auto;
+			width: 90%;
+			max-width: 600px;
+		}
 
-#quote{
-	margin-top:20px;
-	height:40px;
-	background-color:#f8fffe;
-	display:flex;
-	align-items:center;
-}
-#quote>blockquote{
-	padding:15px;
-	max-width:600px;
-	margin:10px;
-	border-left:8px solid green;
-	font-weight:Bold;
-}
+		#question {
+			margin-bottom: 20px;
+		}
+
+		h4 {
+			font-size: 1.2em;
+			margin-bottom: 10px;
+		}
+
+		.btn {
+			margin-right: 10px;
+			margin-bottom: 10px;
+		}
+
+		#quote {
+			background-color: #f8fffe;
+			padding: 15px;
+			margin: 10px 0;
+			border-left: 8px solid green;
+			font-weight: bold;
+			max-width: 600px;
+		}
+
+		#quote blockquote {
+			margin: 0;
+			font-size: 1em;
+		}
